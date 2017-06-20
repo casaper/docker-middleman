@@ -30,3 +30,8 @@ $ ./install_mac_dependencies.sh
 - see more options for run by executing `./run.sh`
 
 view your local test site at [http://127.0.0.1:4567](http://127.0.0.1:4567)
+
+## Linux
+
+It has never been run on linux here, but assumingly this thing should work there as well.
+
