@@ -2,9 +2,7 @@ version: '3.0'
 
 services:
   middleman:
-    build:
-      context: .
-      dockerfile: ./Dockerfile
+    image: casaper/docker-middleman:0.1
     container_name: docker-middleman
     user: middleman
     volumes:
