@@ -1,0 +1,18 @@
+version: '3.0'
+
+services:
+  middleman:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    container_name: middleman
+    user: middleman
+    volumes:
+      - ./project:/middleman/app
+      - ./scripts:/middleman/scripts
+    ports:
+      - "4567:4567"
+      - "35729:35729"
+    entrypoint:
+      - /bin/sh
+      - /middleman/scripts/entry.sh
