@@ -5,7 +5,7 @@ services:
     build:
       context: .
       dockerfile: ./Dockerfile
-    container_name: middleman
+    container_name: docker-middleman
     user: middleman
     volumes:
       - ./project:/middleman/app
