@@ -1,7 +1,6 @@
 import gulp, { dest, src } from 'gulp';
 
 import autoprefixer from 'gulp-autoprefixer';
-import babel from 'gulp-babel';
 import babelify from 'babelify';
 import browserify from 'browserify';
 import buffer from 'vinyl-buffer';
